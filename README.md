@@ -264,6 +264,7 @@ To run the batch file, type
 You can confirm all preference files including GLOBAL.prf created by this batch process.  These preference files can be viewed using a text editor.
 
 # To execute NEUROSTAT programs
+![Alt text](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Images/command.tif?raw=true "Title")
 
   NEUROSTAT programs on Mac OSX, LINUX, SUN OS, DEC, and DOS (Windows Command Prompt) are command-line based.  This means that investigators can perform a program or a combination of programs in a TERMINAL or Command Prompt windows.   For Mac OS9 (Classic and Carbon), a simple graphical user interface is provided since Mac OS9 operation system does not support a TERMINAL or Command windows.
 
