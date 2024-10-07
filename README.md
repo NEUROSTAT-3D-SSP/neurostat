@@ -89,7 +89,7 @@ For those who are interested in using NEUROSTAT command-line software library, y
  
 Mac
 
-[Mac OS9 Classic (GUI)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/MacOS9Classic.sit)
+[Mac OS9 Classic (GUI)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/MacOS9Classic.sit)
 
 [Mac OS9 & OSX Carbon (GUI or Command line)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/MacOSCarbon.sit)
 
