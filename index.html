@@ -1,0 +1,917 @@
+<html>
+
+<head>
+<meta name=Title content="">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:Calibri;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:Calibri;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:Calibri;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GX7MV9R8T2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GX7MV9R8T2');
+</script>
+
+<body bgcolor=white lang=EN-US link="#0563C1" vlink="#954F72">
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:24.0pt'>NEUROSTAT/3D-SSP</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><img width=423
+height=93 id="_x0000_i1027" src="index.fld/image001.png"></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>Neuroimaging
+and Biotechnology Laboratory (NIBTL)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>Department of
+Radiology and Imaging Sciences, University of Utah, Salt Lake City, UT, U.S.A.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:18.0pt'>About NEUROSTAT</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+NEUROSTAT is a software library for neurological and biomedical image analysis
+that has been developed over the past 2 decades.&nbsp; The software has been
+used extensively by clinicians and investigators worldwide (40 countries as of
+2015), and their results are published elsewhere.&nbsp; NEUROSTAT includes programs
+for both basic research applications (e.g., brain mapping studies, group
+comparison) and clinical research applications (e.g., three-dimensional
+stereotactic surface projections, 3D-SSP, for image interpretation,
+coregistration for ictal-interictal SPECT and MRI-PET/SPECT).&nbsp; Components
+of NEUROSTAT can be used for other types of biomedical imaging analyses (e.g.,
+oncology imaging, autoradiographic image analysis).&nbsp;&nbsp; Custom software
+using NEUROSTAT library has been created by various investigators, and some of
+them are available in the public domain.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+NEUROSTAT programs are provided free of charge to facilitate scientific
+applications and collaborations among investigators.&nbsp; However, please note
+that all programs are protected strictly by copyrights.&nbsp; No part of
+NEUROSTAT programs may be used, transferred, disassembled, or modified in any
+way without prior written permission.&nbsp; Although NEUROSTAT programs are
+provided free, investigations and publications concerning the programs themselves,
+i.e., program algorithms, programming styles, program coding, and program
+performance, are not permitted without prior written agreement.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Downloadable software in this page is a subset of the larger software
+library.&nbsp; If you have a specific request for certain types of programs or
+analyses, please contact us by e-mail regarding availability.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+NEUROSTAT should not be relied upon to solve problems when an incorrect
+solution could result in injury to a person.&nbsp; The user assumes all risk
+and liability associated with the use of NEUROSTAT.&nbsp; The author of
+NEUROSTAT disclaims all liability for direct or consequential damages resulting
+from its use and makes no claims as to the reliability or fitness of NEUROSTAT
+for any particular use.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To run NEUROSTAT/3D-SSP, you are required to install a valid KEYCODE into the
+program folder.&nbsp; KEYCODE is provided free of charge and allows us to keep
+track of current users.&nbsp; You may copy KEYCODE for multiple copies of
+NEUROSTAT/3D-SSP installations.&nbsp;&nbsp; Please see the section below 'To
+use NEUROSTAT:&nbsp; KEYCODE'.&nbsp; A typical turnaround time for KEYCODE
+issuing is less than a week.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:18.0pt'>How to download NEUROSTAT/3D-SSP software</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1) 3D-SSP Windows version with Graphical User Interface (Diagnostic Z-score
+mapping)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For those who are interested in 3D-SSP mapping of brain SPECT and PET imaging,
+you can use 3D-SSP software with Graphical User Interface (Windows) provided by
+Nihon Medi-Physics.&nbsp; Please click here <a href="#SSP">&quot;Graphical User
+Interface&quot;</a>.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2) NEUROSTAT Command-line Software Library for MacOS, Windows Command Mode, and
+LINUX (Research Applications)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For those who are interested in NEUROSTAT programs for command-line operations,
+please click below.&nbsp; NEUROSTAT programs, including 3D-SSP, can be executed
+in a command line mode.&nbsp; NEUROSTAT supports multiple computer platforms
+and operation systems.&nbsp;&nbsp; To download NEUROSTAT, investigators need to
+download both Program Files AND Data Files (please see below).&nbsp; Please
+click here <a href="#NEUROSTAT">&quot;NEUROSTAT Command-line Software
+Library&quot;</a>.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><a name=SSP><span
+style='font-size:18.0pt'>3D-SSP Graphical User Interface (Windows version)</span></a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+An English-version of graphical user interface (GUI) for 3D-SSP has been
+developed by Nihon Medi-Physics, Japan.&nbsp; This English version runs on a
+Windows system and tested on Windows XP as well as older version of Windows
+systems.&nbsp; We provide this GUI with various test normal databases (IMP,
+HMPAO, ECD, and, FDG). </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+a) Please click here <a href="GUI/iSSP35-NMP-us.zip">(3D-SSP GUI Download)</a>
+to download the GUI with 3D-SSP programs and test databases.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+b) To install the GUI, 1) login as administrator; 2) place the downloaded zip
+file in the c:\Program Files directory and uncompressed (extract) files; 3)
+change properties (File-&gt;Properties) of the main folder (iSSP-NMP-us) and
+all the subfolders and filers to read/write/executable (uncheck all attributes
+and click apply).&nbsp; Please note that if you are not using a standard
+Windows XP set up (e.g., if you cannot find c:\Program Files directory), you
+have to manually specific correct directory paths in the following files:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+iSSP35.ini (main folder)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+cnvttiff.prf (DocExec folder)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+stereoSPECT.prf (DocExec folder)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+stereoPET.prf (DocExec folder)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Please note that installation on non-standalone workstations may require
+modifications of preference files.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c) Please request a valid KEYCODE (see above) and replace the old KEYCODE in
+the DocExec folder with a new one (either emailed or generated by typekey
+command).</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+d) Within the main folder, you will find 2 GUIs iSSP35 and
+iSSP35_Viewer.exe.&nbsp;&nbsp; It is good to make shortcut for these 2
+programs as well as folders 3DSSP-Input and 3DSSP-Output and place them on
+the Desktop.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Please click iSSP35.exe to start the GUI.&nbsp; You can use a sample SPECT
+image in the folder SampleSPECT to test out the GUI.&nbsp; You can find a
+draft user manual in the Win_iSSP&amp;Neurostat_Manual_PDF.&nbsp; </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+This GUI can read directly DICOM volume files.&nbsp; However, please note that
+PET (and MRI) DICOM files are often kept in multiple files of individual
+slices, instead of a single volume file (such as commonly used for SPECT DICOM
+format).&nbsp; These PET image sets need to be converted to a single binary
+file (or DICOM volume file) prior to the analysis by the GUI.&nbsp; Software,
+such as <a href="http://rsbweb.nih.gov/ij/index.html">ImageJ</a> (Import Image
+Sequence), can perform this conversion.&nbsp; By courtesy of Nihon
+Medi-Physics, Windows program Scomb.exe is also provided to perform this
+conversion.&nbsp; Please click here <a href="scomb/Scomb.zip">(Scomb.zip)</a>
+to download Scomb.exe program and its documentation.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+If you succeed the installation and test run, you should see the following
+output (using iSSP35_Viewer) for visual interpretation of SPECT or PET images.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img border=0 width=621 height=389 id="_x0000_i1026"
+src="index.fld/image002.png"></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><a
+name=NEUROSTAT><span style='font-size:18.0pt'>NEUROSTAT Command-line Software
+Library (updated 12/18/2013)</span></a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For those who are interested in using NEUROSTAT command-line software library,
+you will need to download both 1) Program Files and 2) Data Files below.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1) Program Files</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+NEUROSTAT is available on the following platforms.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Mac</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Programs/MacOS9Classic.sit"download>Mac OS9 Classic (GUI)</a></p>
+	
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Programs/MacOSCarbon.sit"download>Mac OS9 &amp; OSX Carbon (GUI or Command
+line)</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Programs/MacOSXMachO.sit"download>Mac OSX Mach-O (Command line)</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Programs/MacOSXLion.zip"download>Mac OSX Lion (Command line)</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Linux</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Programs/LINUXRedHat8.gz"download>LINUX8 (Red Hat)</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Programs/LINUXRedHat7.gz"download>LINUX7 (Red Hat)</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+SunOS (old Sparc Station)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Programs/SUNOS.Z"download>SUN OS (SPARC)</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Windows Command Line/DOS</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Programs/DOSWin32.zip"download>DOS-Windows (Command line)</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+DEC (upon request)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To download, please click the program archive for your platform.&nbsp; </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+a) Mac OSX Mach-O is a version compatible with a UNIX terminal on Mac OSX
+(pre-Lion OS).&nbsp; &quot;Mac OSX Lion&quot; is a version compatible with Mac
+OSX Lion.&nbsp; DOS (Windows) is a version compatible with a MS-DOS and
+Command Prompt terminal on Windows.&nbsp; We encourage investigators to use
+these command-line based programs on Macintosh and PC because image analyses
+can be fully automated by creating shell and batch files.&nbsp; LINUX, SUN OS,
+and DEC are also command-line based.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+b) .sit and .zip files can be uncompressed by the operation system software or
+freeware such as <a href="http://my.smithmicro.com/stuffit-expander-mac.html"download>Stuffit
+Expander</a>. </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c) For SUN OS, please use uncompress SUNOS.zip first, and then tar xvpf SUNOS
+to unarchive programs.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+d) For LINUX, please use gunzip LINUXRedHat8.gz first, and then tar xvpf
+LINUXRedHat8 to unarchive programs. </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Please create a folder or directory (e.g., NEUROSTAT) and place all programs
+in this folder or directory.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2) Data Files</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+NEUROSTAT uses several data files.&nbsp; Some of these files are platform
+specific.&nbsp; Text files are also specific to the platforms.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="data/DATAMacOS9.sit"download>Mac OS9</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="data/DATAMacOSX.sit"download>Mac OSX</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="data/DATALINUXRedHat.gzdownload">LINUX</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="data/DATASUNOS.Z"download>SUN OS</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="data/DATADOSWin32.zip">DOS-Windows</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+DEC (upon request)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To download, please click the data archive for your platform.&nbsp; </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+a) .sit and .zip files can be uncompressed by the operation system software or
+freeware such as Stuffit Expander. </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+b) For SUN OS, please use uncompress DATASUNOS.Z first, and then tar xvpf
+DATASUNOS to unarchive programs.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c) For LINUX, please use gunzip DATALINUXRedHat.gz first, and then tar xvpf DATALINUXRedHat
+to unarchive programs. </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Please place all data files in the same directory created for the NEUROSTAT
+program files. </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3) Image Display Software</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+NEUROSTAT does not provide software for image 'display' or observer-dependent
+image analysis routines.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Images processed by NEUROSTAT are generally in a simple binary format (default,
+signed short integer, image matrix and pixel sizes described in a
+header).&nbsp; These images can be viewed by common image display / analysis
+software such as <a href="http://rsb.info.nih.gov/ij/">Image J (NIH)</a>.&nbsp;&nbsp;
+Alternatively, there are several commercial software packages that can display
+images in various image formats.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+NEUROSTAT also includes a binary-tiff conversion program (cnvttiff).&nbsp;
+Images processed by NEUROSTAT can be converted to TIFF files that can be viewed
+by a default image viewer provided for each computer platform.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+It is also straightforward to write image-format conversion programs for NEUROSTAT
+so that resulting images can be reconverted to their original format.&nbsp;
+Reconverted images can, then, be displayed on the original imaging
+workstation.&nbsp; Conversion programs for CTI6 format (a format being used for
+Siemens/CTI PET scanner) are included (cnvtbic6 &amp; cnvtc6bi).</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Data files created by NEUROSTAT are generally in simple text
+format.&nbsp;&nbsp; The content of these files can be viewed by a common text
+editor, word processor, or spreadsheet program and edited for further analyses.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:18.0pt'>To use NEUROSTAT:&nbsp; KEYCODE</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For the purpose of regular software updates and user communication, NEUROSTAT
+programs require a valid KEYCODE.&nbsp;&nbsp; Please send keycode requests to <a
+href="mailto:donna.cross@hsc.utah.edu?subject=NEUROSTAT%20KEYCODE">NEUROSTAT
+KEYCODE</a> with the following information.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1) Name of the institution to be registered</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2) Name of the primary investigator (or contact person)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3) Title of the primary investigator</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4) Affiliation (i.e., department) of the primary investigator</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5) Mailing address</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6) Phone number</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7) Fax number</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8) Email address</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9) Computer platform &amp; Operating system</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In return, you will receive a set of numbers or a binary KEYCODE file by e-mail
+in a few days.&nbsp; The program typekey uses these numbers to generate a
+KEYCODE file specific to your institution.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To create a KEYCODE file, change the current directory to the program directory
+created above.&nbsp; To start the keycode generation program typekey,&nbsp;
+please type,</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In the TERMIAL window (Mac OSX, LINUX, and SUN OS),</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+./typekey [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In the DOS prompt (DOS, Windows Command Prompt),</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+typekey.exe [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For Mac OS9 GUI (Classic or Carbon),</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Click the program icon typekey</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The following message will appear on the screen.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+OUTPUT</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+TYPE-IN KEYCODE FILE (Version x)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(opening message)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Input codes. [-1] to finish.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Please type in each number provided in the e-mail and hit [RETURN] after each
+number.&nbsp; When you finish typing in all numbers, type -1 and then hit
+[RETURN] to finish.&nbsp; </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+EXAMPLE</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Input codes. [-1] to finish.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+23 [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+100 [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+16 [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-1 [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+This will create a KEYCODE file in the program directory.&nbsp; You can confirm
+the creation of the file by listing files in the program directory (For Mac
+OSX, LINUX, and SUN OS, type ls.&nbsp; For MS-DOS, type dir.&nbsp; For Mac
+OS9, simply check the content of the program folder by opening it).&nbsp; If
+you would like to create multiple copies of the program directory (either on
+the same workstation or different workstation), you must create this KEYCODE
+file for each program directory.&nbsp; This can be done either by simply
+copying the existing KEYCODE file or by running typekey program again in each
+new directory.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:18.0pt'>To begin NEUROSTAT</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For users who would like to use the GUI version of 3D-SSP for human brain SPECT
+and PET, please see the section <a href="#SSP">3D-SSP Graphical User
+Interface.</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The NEUROSTAT programs consist of executable program files, preference files,
+and data files.&nbsp; The preference files for each program (if required) will
+be created automatically when the program is executed for the first time.&nbsp;
+Preference files determine the behavior of the programs and can be modified by
+the investigator.&nbsp; The programs, preference files, and data files are
+stored preferably together in the dedicated program directory (or folder)
+created above.&nbsp; However, customized preference and data files can be
+stored in individual investigatorsÕ directories, different from the program
+directory and specified by an option -p for a custom preference file.&nbsp;
+This function will be discussed in detail in the NEUROSTAT manual.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To create preference files of all programs at once, there is a batch file
+init.bat included in the Data Files for the platforms, Mac OSX, LINUX, SUN
+OS, and DOS-Window.&nbsp; For Mac OS9 (GUI), the investigator has to click each
+program icon manually.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Before running this batch file on Mac OSX, LINUX, and SUN OS, please change a
+file permission to executable</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+chmod +x init.bat [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To run the batch file, type</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+./init.bat [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(or init.bat without ./ for DOS)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+You can confirm all preference files including GLOBAL.prf created by this
+batch process.&nbsp; These preference files can be viewed using a text editor.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:18.0pt'>To execute NEUROSTAT programs</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+NEUROSTAT programs on Mac OSX, LINUX, SUN OS, DEC, and DOS (Windows Command
+Prompt) are command-line based.&nbsp; This means that investigators can perform
+a program or a combination of programs in a TERMINAL or Command Prompt
+windows.&nbsp;&nbsp; For Mac OS9 (Classic and Carbon), a simple graphical user
+interface is provided since Mac OS9 operation system does not support a
+TERMINAL or Command windows.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img border=0 width=652 height=124 id="_x0000_i1025"
+src="index.fld/image003.png"></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+a) For Mac OS9 (Classic or Carbon), please click a program icon.&nbsp; This
+will evoke a small GUI window (see above).&nbsp; The investigator can type in
+command-line parameters in the ÔArgumentÕ window and then click [OK] to execute
+the program.&nbsp;&nbsp; If [OK] is clicked without arguments, the program will
+print out the instruction for command-line arguments and options available for
+the program.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+There are two programs, batchjobber and batchwait, provided specifically
+for Mac OS9 platform.&nbsp; These programs allow investigators to use text
+scripts that execute sequentially multiple programs in the Mac OS9
+environment.&nbsp; Please see the NEUROSTAT manual how to use these programs.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+b) For a command-line based platform (Mac OSX, SUN OS, LINUX, DEC, and
+DOS-Windows Command Prompt), type a program name followed by arguments for the
+program and, then, [RETRUN] to execute the program.&nbsp; For example, to run
+coreg program,</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For Mac OSX, SUN OS, LINUX, and DEC,</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+./coreg spect1.img spect2.img output [RETURN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For DOS-Windows Command Prompt,</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+coreg.exe spect1.img spect2.img output [RETRUN]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Please note that there is ./ in front of the program name on UNIX-based
+command line (this can be omitted on some platforms), and .exe at the end of
+the program name on DOS-Window Command Prompt.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:18.0pt'>To test run NEUROSTAT</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In the Data Files, there are imaging data included for a test run of NEUROSTAT
+programs.&nbsp; A shell file, ssp_bin is provided for the command-line based
+platforms including Mac OSX, LINUX, SUN OS, DEC, and DOS-Window.&nbsp;
+Unfortunately, this test script cannot be used on Mac OS9 (however, it is
+possible to write a similar script and use batchjobber to execute).</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To run this test script,&nbsp; please type the following command in the TERMIAL
+(or Command Prompt) window.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+./ssp_bin testspectB [RETURN] (UNIX-based)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+or </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+rename 'ssp_bin' to 'ssp_bin.bat' (rename ssp_bin ssp_bin.bat)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ssp_bin.bat testspectB [RETURN] (DOS-Windows Command Prompt)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+This will analyze sample imaging data, testspectB.img (and a corresponding
+header file, testspectB.hdr), using 3D-SSP routines and write out several TIFF
+files as results.&nbsp; TIFF files can be viewed by a common image viewer
+provided for each platform.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The content of ssp_bin can be viewed using a text editor.&nbsp; This will
+provide an example of NEUROSTAT scripts.&nbsp; Complex or repeat image analysis
+tasks can be completely automated by writing a text script for NEUROSTAT
+programs.&nbsp; The analyses can then be incorporated in various applications
+and routine image processing.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:18.0pt'>Further reading</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The most recent (but outdated) manual for the command-line version of NEUROSTAT
+can be downloaded for your reference <a href="documents/NEUROSTAT2016.RTF">(&quot;Neurostat
+Manual&quot;).</a>&nbsp; Please note that some descriptions are outdated in this
+manual.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:18.0pt'>To contact us</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For questions regarding NEUROSTAT programs, please contact us by email.&nbsp;
+For trouble shooting, please attach a screen capture or an output message from
+the program, if possible.&nbsp; Further information regarding NEUROSTAT/3D-SSP
+programs will be provided through this web page.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Happy Data Analysis!</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:sminoshima@hsc.utah.edu?subject=NEUROSTAT%20question">Satoshi
+Minoshima, MD, PhD</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:donna.cross@hsc.utah.edu?subject=NEUROSTAT%20question">Donna
+Cross, PhD</a></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
