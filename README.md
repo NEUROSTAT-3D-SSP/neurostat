@@ -92,28 +92,28 @@ Mac
 
 [Mac OS9 Classic (GUI)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/MacOS9Classic.sit)
 
-[Mac OS9 & OSX Carbon (GUI or Command line)](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Programs/MacOSCarbon.sit)
+[Mac OS9 & OSX Carbon (GUI or Command line)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/MacOSCarbon.sit)
 
-[Mac OSX Mach-O (Command line)](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Programs/MacOSXMachO.sit)
+[Mac OSX Mach-O (Command line)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/MacOSXMachO.sit)
 
-[Mac OSX Lion (Command line)](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Programs/MacOSXLion.zip)
+[Mac OSX Lion (Command line)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/MacOSXLion.zip)
 
  
 
 Linux
 
-[LINUX8 (Red Hat)](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Programs/LINUXRedHat8.gz)
+[LINUX8 (Red Hat)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/LINUXRedHat8.gz)
 
-[LINUX7 (Red Hat)](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Programs/LINUXRedHat7.gz)
+[LINUX7 (Red Hat)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/LINUXRedHat7.gz)
 
-[SunOS (old Sparc Station)](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Programs/SUNOS.Z)
+[SunOS (old Sparc Station)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/SUNOS.Z)
 
-[SUN OS (SPARC)](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Programs/SUNOS.Z)
+[SUN OS (SPARC)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/SUNOS.Z)
 
 
 Windows Command Line/DOS
 
-[DOS-Windows (Command line)](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Programs/DOSWin32.zip)
+[DOS-Windows (Command line)](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Programs/DOSWin32.zip)
 
 DEC (upon request)
 
@@ -136,15 +136,15 @@ Please create a folder or directory (e.g., NEUROSTAT) and place all programs in 
 
 NEUROSTAT uses several data files.  Some of these files are platform specific.  Text files are also specific to the platforms.
 
-[Mac OS9](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Data/DATAMacOS9.sit)
+[Mac OS9](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Data/DATAMacOS9.sit)
 
-[Mac OSX](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Data/DATAMacOSX.sit)
+[Mac OSX](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Data/DATAMacOSX.sit)
 
-[LINUX](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Data/DATALINUXRedHat.gz)            
+[LINUX](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Data/DATALINUXRedHat.gz)            
 
-[SUN OS](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Data/DATASUNOS.Z)
+[SUN OS](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Data/DATASUNOS.Z)
 
-[DOS-Windows](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Data/DATADOSWin32.zip)                              
+[DOS-Windows](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Data/DATADOSWin32.zip)                              
 
 [DEC (upon request)]()
 
