@@ -76,7 +76,8 @@ This GUI can read directly DICOM volume files.  However, please note that PET (a
 
  
 If you succeed the installation and test run, you should see the following output (using iSSP35_Viewer) for visual interpretation of SPECT or PET images.
-![Alt text](https://github.com/NEUROSTAT-3D-SSP/NEUROSTAT-3D-SSP/blob/main/Images/3D-SSP.tif?raw=true "Title")
+![Alt text](https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Images/3D-SSP.tif?raw=true "Title")
+https://github.com/NEUROSTAT-3D-SSP/neurostat/blob/main/Images/NEUROSTAT.tif
 
 # NEUROSTAT Command-line Software Library (updated 12/18/2013)
 
